@@ -1,0 +1,100 @@
+{
+    "responseError": 1,
+    "values": [
+        {
+            "parameterValues": {
+                "UserId": 44,
+                "NewsArticleId": 0,
+                "Date": "15/10/2015"
+            },
+            "responseValue": {
+                "code": 200,
+                "success": 1,
+                "data": [
+                    {
+                        "member_id": 1,
+                        "first_name": "Михаил",
+                        "last_name": "Putin"
+                    },
+                    {
+                        "member_id": 2,
+                        "first_name": "Мщсф",
+                        "last_name": "Medvedev"
+                    },
+                    {
+                        "member_id": 3,
+                        "first_name": "Sasha",
+                        "last_name": "Lucashenko"
+                    },
+                    {
+                        "member_id": 4,
+                        "first_name": "Kolia",
+                        "last_name": "Lucashenko"
+                    },
+                    {
+                        "member_id": 5,
+                        "first_name": "Max",
+                        "last_name": "Dadychyn"
+                    },
+                    {
+                        "member_id": 6,
+                        "first_name": "Vasili",
+                        "last_name": "Zarubanov"
+                    }
+                ]
+            }
+        },
+        {
+            "parameterValues": {
+                "UserId": 25,
+                "NewsArticleId": 25,
+                "Date": "25/11/2015"
+            },
+            "responseValue": {
+                "code": 200,
+                "success": 1,
+                "data": [
+                    {
+                        "member_id": 1,
+                        "first_name": "Vova",
+                        "last_name": "Putin"
+                    },
+                    {
+                        "member_id": 2,
+                        "first_name": "Dima",
+                        "last_name": "Medvedev"
+                    },
+                    {
+                        "member_id": 3,
+                        "first_name": "Sasha",
+                        "last_name": "Lucashenko"
+                    },
+                    {
+                        "member_id": 4,
+                        "first_name": "Kolia",
+                        "last_name": "Lucashenko"
+                    },
+                    {
+                        "member_id": 5,
+                        "first_name": "Max",
+                        "last_name": "Dadychyn"
+                    },
+                    {
+                        "member_id": 6,
+                        "first_name": "Vasili",
+                        "last_name": "Zarubanov"
+                    }
+                ]
+            }
+        }
+    ],
+    "error": {
+        "code": 400,
+        "success": 0,
+        "errorMessage": "Error ha ha ha"
+    },
+    "descriptions": {
+        "Content-Type": "application/json",
+        "HTTPMethod": "POST"
+    }
+}
