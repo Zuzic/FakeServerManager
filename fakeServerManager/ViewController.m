@@ -20,8 +20,6 @@
     //[self sendRequest];
     
     [[FakeServerManager sharedInstance] startFakeServer];
-    
-    [self sendPostRequest];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,8 +27,28 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+#pragma mark - Actions methods
+- (IBAction)clickConnet1:(id)sender {
+    [self sendPostRequest];
+}
+
+
+
+
+#pragma mark - Request methods
+
+-(void) sentSessionTaskRequest{
+    
+}
+
+-(void) sentUrlConnectionRequest{
+    
+}
+
+
 -(void) sendPostRequest{
-    NSString *serverUrl = @"http://google.com/example";
+    NSString *serverUrl = @"http://google.com";
     
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:serverUrl]];//[NSMutableURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@/testMethods?UserId=0&NewsArticleId=0&Date=15/10/2015", serverUrl]]];
     
